@@ -36,3 +36,8 @@ set softtabstop=4 " 挿入モードでtabキーを押した時に挿入される
 
 set number
 
+"------------------------------------------------------------
+" Shortcut keys
+" Tagbar
+nmap <F8> :TagbarToggle<CR> 
+
