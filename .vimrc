@@ -54,7 +54,7 @@ set smartcase
 " Syntax highlighting
 set background=dark
 colorscheme solarized
-autocmd Filetype python set colorcolumn=80
+set colorcolumn=80
 
 " Indentation options 
 set expandtab     " タブを空白文字に変換
