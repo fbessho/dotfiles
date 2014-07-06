@@ -1,3 +1,19 @@
+" NeoBundle
+if has('vim_starting')
+    set runtimepath+=~/.vim/bundle/neobundle.vim/
+endif
+call neobundle#rc(expand('~/.vim/bundle'))
+
+" ファイルツリー表示
+NeoBundle 'scrooloose/nerdtree'
+" コメントON/OFFを手軽に実行
+NeoBundle 'tomtom/tcomment_vim'
+" テンプレートプラグイン
+NeoBundle "thinca/vim-template"
+
+" 未インストールのプラグインがある場合インストールするかをチェックしてくれる
+NeoBundleCheck 
+
 " Features
 set nocompatible
 filetype indent plugin on
@@ -38,6 +54,8 @@ set number
 
 "------------------------------------------------------------
 " Shortcut keys
-" Tagbar
+" F8 to open Tagbar
 nmap <F8> :TagbarToggle<CR> 
+" F1 to open NERDTree
+noremap <F1> :NERDTree<CR>
 
