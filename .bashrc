@@ -6,3 +6,7 @@ eval "$(rbenv init -)"
 if [ -f "/usr/libexec/java_home" ]; then
     export JAVA_HOME=$(/usr/libexec/java_home)
 fi
+
+# Enable i-search (Ctrl+S)
+stty -ixon
+
