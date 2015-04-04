@@ -2,7 +2,7 @@
 
 #---------------
 # Vim settings
-ln -sf ~/dotfiles/.vimrc ~/.vimrc
+ln -sf ~/dotfiles/vimrc ~/.vimrc
 mkdir ~/.vim
 ln -sf ~/dotfiles/vim/autoload ~/.vim/autoload
 ln -sf ~/dotfiles/vim/colors   ~/.vim/colors
