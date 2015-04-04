@@ -1,3 +1,5 @@
+set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+
 " NeoBundle
 if has('vim_starting')
     set runtimepath+=~/.vim/bundle/neobundle.vim/
